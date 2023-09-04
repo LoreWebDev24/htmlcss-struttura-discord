@@ -25,6 +25,14 @@
     border: 1px solid black;
 }
 
+.container__header {
+    background-color: #DAA520;
+}
+
+.section-1 {
+    background-color: #00008B;
+}
+
 /* End of Debugging */
 
 
@@ -37,9 +45,8 @@ body {
 
 .section__header {
     padding: 20px;
-    height: 80px;
+    max-height: 80px;
     min-width: 100vh;
-    background-color: rgb(173, 216, 230);
 }
 
 .row  {
@@ -71,6 +78,15 @@ body {
 
 .container { 
     margin: 0 auto;
+}
+
+.container__header {
     max-width: 800px;
+}
+
+.section-1 {
+    min-height: 600px;
+    min-width: 100vh;
+    border-bottom: 7px solid rgb(173, 216, 230) ;
 }
 
