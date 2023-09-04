@@ -47,10 +47,18 @@ body {
     flex-wrap: wrap;
 }
 
-/* .col {
+.col {
     padding-left: 10px;
-    min-width: 200px;
-} */
+}
+
+.col__max{
+    min-width: 300px;
+    text-align: center;
+}
+
+.col__min {
+    padding-right: 10px;
+}
 
 
 .row__header {
