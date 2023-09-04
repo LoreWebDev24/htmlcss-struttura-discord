@@ -10,7 +10,7 @@
     background-color: rgb(173, 216, 230);
 }
 
-.debug .col__min, .col__max, .col__min-1, .col__section-1, .col1__section-2 , .col2__section-2{
+.debug .col__min, .col__max, .col__min-1, .col__section-1, .col1__section-2 , .col2__section-2, .col1__section-3, .col2__section-3{
     border: 2px dashed black;
 }
 
@@ -30,9 +30,18 @@
 
 .debug .section-1 {
     background-color: #00008B;
+    border-bottom: 5px solid rgb(173, 216, 230) ;
 }
 .debug .section-2 {
     background-color: #FFFFFF ;
+}
+
+.debug .section-3 { 
+    background-color: #D3D3D3 ;
+}
+
+.debug .section-5 {
+    background-color: #D3D3D3;
 }
 
 
@@ -40,16 +49,24 @@
     background-color: greenyellow;
 }
 
+.debug .container__section-5 {
+    background-color: #228B22
+}
+
+.debug .container__section-3{
+    background-color: #DAA520;
+}
+
 .debug .col__section-1 {
-    background-color: #FFC0CB;
+    background-color: #EE82EE;
 }
 
-.debug .col1__section-2 {
-   background-color:#FFC0CB;
+.debug .col1__section-2, .col2__section-3 {
+   background-color:#1E90FF;
 }
 
-.debug .col2__section-2 {
-    background-color:#1E90FF;
+.debug .col2__section-2, .col1__section-3 {
+    background-color:#FFC0CB;
  }
 
 /* End of Debugging */
@@ -75,9 +92,12 @@ body {
     height: 100%;
 }
 
+
+
 .col {
     padding-left: 10px;
     padding-top: 5px;
+    height: 100%;
 }
 
 .col__max{
@@ -104,12 +124,11 @@ body {
     width:850px;   
 }
 
-.col1__section-2 {
+.col1__section-2, .col2__section-3{
     width: 60% ;
-    height: 100%;
 }
 
-.col2__section-2 {
+.col2__section-2, .col1__section-3 {
     width: 40%;
 }
 
@@ -117,13 +136,16 @@ body {
     margin: 0 auto;
 }
 
-.container__header, .container__section-2 {
+.container__header, .container__section-2, .container__section-3, .container__section-5 {
     min-width: 500px;
-    max-width: 1200px;
-    
+    max-width: 1200px; 
 }
 
-.container__section-2 {
+.container__section-5 {
+    height: 800px ;
+}
+
+.container__section-2, .container__section-3 {
     height: 400px;
 }
 
@@ -135,3 +157,4 @@ section{
     width:850px;
     height: 400px;
 }
+
