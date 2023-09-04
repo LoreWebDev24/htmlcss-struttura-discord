@@ -32,13 +32,13 @@ body {
     display: flex;
     min-height: 100vh;
     min-width: 100vh;
-    flex-direction: row ;
+    flex-direction: column ;
 }
 
 .section__header {
     padding: 20px;
     height: 80px;
-    min-width: 2000px;
+    min-width: 100vh;
     background-color: rgb(173, 216, 230);
 }
 
