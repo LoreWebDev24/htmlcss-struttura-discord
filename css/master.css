@@ -113,51 +113,47 @@ body {
 .section__header {
     padding: 20px;
     max-height: 80px;
-    min-width: 100vh;
 }
 
 .row  {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .row__footer {
-    height: fit-content;
-    align-self: center;
     padding-top: 42px;
 }
 
 .col {
-    padding-left: 10px;
-    padding-top: 5px;
-    /* height: 400px; */
     font-size: 1.3em;
 }
 
 .col__max {
     width: 60%;
     text-align: center;
-    height: 35px;
+    min-height: 35px;
     font-size: 1.3em;
+    /* padding-left: 10px;
+    padding-top: 5px; */
 }
 
 .col__min {
     padding-right: 10px;
     width: 20% ;
     text-align: end;
-    height: 35px;
+    min-height: 35px;
+    /* padding-left: 10px;
+    padding-top: 5px; */
 }
 
 .col__min-1 {
     padding-left: 10px;
     text-align: left;
     width: 20%;
-    height: 35px;
-}
-
-.col__section-1 {
-    min-width:850px;   
+    min-height: 35px;
+    /* padding-left: 10px;
+    padding-top: 5px; */
 }
 
 .col1__section-2, .col2__section-3 {
@@ -168,9 +164,9 @@ body {
     width: 40%;
 }
 
-/* .col1__section-5 {
-    max-height: 800px;
-} */
+.col__section-1 {
+    width: 100%;
+}
 
 .col__footer {
     text-align: center;
@@ -184,12 +180,12 @@ body {
 }
 
 .container__header, .container__section-2, .container__section-3, .container__section-5, .container__section-6, .container__section-7 {
-    /* min-width: 500px; */
     max-width: 1200px; 
 }
 
-.container__section-5 {
+.col1__section-5 {
     min-height: 800px ;
+    width: 100%;
 }
 
 section {
@@ -197,8 +193,8 @@ section {
 }
 
 
-.container__section-1 {
-    width:850px;
+.justify-center {
+    justify-content: center;
 }
 
 .col2__section-6, .col3__section-6, .col4__section-6, .col5__section-6 {
@@ -213,10 +209,14 @@ section {
     padding-bottom: 42px;
 }
 
-.col__section-1, .col1__section-2, .col2__section-2, .col1__section-3, .col2__section-3, .col1__section-5, .col1__section-6, .col2__section-6, .col3__section-6, .col4__section-6, .col5__section-6 {
+.col__section-1, .col1__section-2, .col2__section-2, .col1__section-3, .col2__section-3, .col1__section-6, .col2__section-6, .col3__section-6, .col4__section-6, .col5__section-6 {
 
     min-height: 400px;
 }
 
+
+.small-container {
+    max-width:850px;   
+}
 
 
