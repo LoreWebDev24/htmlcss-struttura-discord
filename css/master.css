@@ -131,7 +131,7 @@ body {
 .col {
     padding-left: 10px;
     padding-top: 5px;
-    height: 400px;
+    /* height: 400px; */
     font-size: 1.3em;
 }
 
@@ -157,7 +157,7 @@ body {
 }
 
 .col__section-1 {
-    width:850px;   
+    min-width:850px;   
 }
 
 .col1__section-2, .col2__section-3 {
@@ -184,7 +184,7 @@ body {
 }
 
 .container__header, .container__section-2, .container__section-3, .container__section-5, .container__section-6, .container__section-7 {
-    min-width: 500px;
+    /* min-width: 500px; */
     max-width: 1200px; 
 }
 
@@ -211,6 +211,11 @@ section {
 
 .row__footer {
     padding-bottom: 42px;
+}
+
+.col__section-1, .col1__section-2, .col2__section-2, .col1__section-3, .col2__section-3, .col1__section-5, .col1__section-6, .col2__section-6, .col3__section-6, .col4__section-6, .col5__section-6 {
+
+    min-height: 400px;
 }
 
 
